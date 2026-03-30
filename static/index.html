@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>QuiroBot Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A0F0D;--bg2:#0E1512;--card:#152019;--card2:#1A2820;--bord:rgba(255,255,255,0.07);--gr:#3DBA7A;--gr2:#2D8F5B;--am:#E8A84C;--rd:#E05C5C;--bl:#5CA8E0;--tx:#EDF2EE;--mu:#7A9484;--di:#3A5448;--glow:rgba(61,186,122,0.18);}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--tx);min-height:100vh;overflow-x:hidden;}
+.hdr{background:rgba(10,15,13,.97);padding:14px 18px 0;position:sticky;top:0;z-index:200;border-bottom:1px solid var(--bord);}
+.hdr-top{display:flex;align-items:center;gap:11px;padding-bottom:12px;}
+.logo{width:38px;height:38px;background:linear-gradient(135deg,var(--gr),var(--gr2));border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:20px;box-shadow:0 0 18px var(--glow);flex-shrink:0;}
+.hdr-text h1{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:700;}
+.hdr-text p{font-size:.68rem;color:var(--mu);margin-top:1px;}
+.hdr-badge{margin-left:auto;background:rgba(61,186,122,.1);border:1px solid rgba(61,186,122,.25);color:var(--gr);font-size:.62rem;font-weight:600;padding:4px 9px;border-radius:20px;white-space:nowrap;}
+.tabs{display:flex;overflow-x:auto;scrollbar-width:none;gap:2px;padding:0 2px;}
+.tabs::-webkit-scrollbar{display:none;}
+.tab{flex-shrink:0;padding:9px 13px 10px;font-size:.7rem;font-weight:500;color:var(--mu);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap;}
+.tab.active{color:var(--gr);border-bottom-color:var(--gr);}
+.panel{display:none;padding:16px 15px 110px;animation:fadeUp .3s ease;}
+.panel.active{display:block;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+</style>
+</head>
+<body>
+<div class="hdr">
+  <div class="hdr-top">
+    <div class="logo">&#x1F9B4;</div>
+    <div class="hdr-text"><h1>QuiroBot Pro</h1><p>Cargando...</p></div>
+    <div class="hdr-badge">IA ACTIVA</div>
+  </div>
+</div>
+<div style="display:flex;align-items:center;justify-content:center;height:80vh;flex-direction:column;gap:16px;">
+  <div style="font-size:48px">&#x1F9B4;</div>
+  <p style="color:var(--mu);font-size:.9rem;">Por favor usa el archivo quirobot.html completo</p>
+</div>
+</body>
+</html>
